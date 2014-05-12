@@ -1,0 +1,148 @@
+ <head>
+    <title>UncommonAdmit | Expert, Affordable College Admissions Advice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Bootstrap -->
+    <!--
+    -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//d207g2sgdgv2of.cloudfront.net/5/assets/css/bootstrap-yeti.min.css">
+    
+    <link rel="stylesheet" href="/styles/site.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/AdmitHub.css">
+    <link rel="shortcut icon" type="image/x-icon" href="">
+      <!-- Web Fonts -->
+    
+    
+  </head>
+    <body>
+    <div class="home">
+    <div class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <!--
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About</a></li>
+        -->
+        <li><a href="#jobs">Jobs <span class="alerts">1</span></a></li>
+        <li><a class="login">{{> loginButtons align="right"}}</a></li>
+        <!--
+        <li><a href="#">Sign Up</a></li>
+        -->
+        <!--
+        <li class="orange"><a href="#">Login</a></li>
+        -->
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+    <a name="top"></a>
+<section class="welcome">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">{{>hello}}</h1>
+      </div>
+    </div>
+    <div class="row visible-lg visible-md">
+      <div class="col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-1">
+        <div class="arrow text-right hidden-xs">
+        </div>
+      </div>
+      <!-- <div class="col-lg-6 col-md-8">
+        <form id="frm_top" role="form" method="POST">
+          <div class="input-group">
+            <input class="form-control" type="text" name="email" placeholder="&nbsp;Enter your email" autofocus/>
+            <a class="input-group-addon btn btn-default" onclick="document.getElementById('frm_top').submit();">Newsletter signup</a>
+            <div class="coffee visible-lg"></div>
+          </div>
+        </form>
+      </div> -->
+    </div>
+    <!-- <div class="row hidden-lg hidden-md">
+      <form id="frm_top_tablet" class="text-center" role="form" method="POST">
+        <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+          <div class="form-group">
+            <input class="form-control text-center" type="text" name="email" placeholder="&nbsp;Enter your email" autofocus/>
+          </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-4">
+          <a class="btn btn-default" onclick="document.getElementById('frm_top_tablet').submit();">Newsletter signup</a>
+        </div>
+      </form>
+    </div> -->
+  </div>
+</section>
+</div>
+{{>submissions}}
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 col-xs-6">
+        <h2>UncommonAdmit</h2>
+        <ul class="list-unstyled">
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#marketplaces">For Students</a></li>
+          <li><a href="#team">About Us</a></li>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="http://www.howtogetintoyourharvard.tumblr.com/">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <h2>UncommonAdmit for <strong>college applicants</strong></h2>
+        <p>Affordable, accessible, and expert college admissions advising</p>
+        <p><a class="btn btn-default" href="#top">Learn More</a></p>
+      </div>
+    </div>
+    <div class="row copy">
+      <div class="col-sm-6">
+        &copy; 2014 UncommonAdmit, Inc. All rights reserved.
+      </div>
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li>
+            <!-- Twitter Button Here -->
+
+          </li>
+          <li>
+            <!-- Like Button Here -->
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="//d207g2sgdgv2of.cloudfront.net/5/assets/js/knockout-3.0.0.js"></script>
+      <script type="text/javascript" src="//d207g2sgdgv2of.cloudfront.net/5/assets/plugins/knockout-mapping/knockout.mapping.js"></script>
+
+  <script type="text/javascript">
+  </script>
+  
+</body>
+
+<template name="hello">
+  {{greeting}}
+</template>
+
+<template name='submissions'>
+  {{> quickForm collection="Apps" id="insertAppForm" type="insert"}}     
+</template>
+

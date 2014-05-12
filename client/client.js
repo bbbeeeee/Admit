@@ -10,4 +10,13 @@ if (Meteor.isClient) {
         console.log("You pressed the button");
     }
   });
+
+
+
+  Accounts.config({
+    forbidClientAccountCreation: true,
+    sendVerificationEmail: true
+  });
+  
+  
 }

@@ -1,1 +1,14 @@
 /* CSS declarations go here */
+
+div#login-buttons a.login-link-text{
+  text-decoration:none;
+  color:white;
+}
+
+a > div.accounts-dialog {
+  color:black;
+}
+
+.login {
+  border: 1px solid #FFF;
+}

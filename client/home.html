@@ -10,10 +10,12 @@
         <link rel="stylesheet" href="//d207g2sgdgv2of.cloudfront.net/5/assets/css/bootstrap-yeti.min.css">
     
     <link rel="stylesheet" href="/styles/site.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/AdmitHub.css">
     <link rel="shortcut icon" type="image/x-icon" href="">
       <!-- Web Fonts -->
     
-    <link rel="stylesheet" href="/styles/main.css">
+    
   </head>
     <body>
     <div class="home">
@@ -34,7 +36,7 @@
         <li><a href="#">About</a></li>
         -->
         <li><a href="#jobs">Jobs <span class="alerts">1</span></a></li>
-        <li class="highlight"><a href="http://app.uncommonadmit.com">Login</a></li>
+        <li><a class="login">{{> loginButtons align="right"}}</a></li>
         <!--
         <li><a href="#">Sign Up</a></li>
         -->
@@ -83,6 +85,7 @@
   </div>
 </section>
 </div>
+
 <section class="partners" style="display: none;">
   <div class="container">
     <div class="row">
@@ -318,3 +321,8 @@
 <template name="hello">
   {{greeting}}
 </template>
+
+<template name='submissions'>
+  
+</template>
+
