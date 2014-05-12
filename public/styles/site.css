@@ -1,0 +1,851 @@
+h1, h2, h3{
+  font-weight: 600;
+}
+  
+.form-control{
+  border-radius: 4px;
+}
+.input-group-addon{
+  border-radius: 4px;
+}
+
+.input-group .form-control:first-child, 
+.input-group-addon:first-child, 
+.input-group-btn:first-child>.btn, 
+.input-group-btn:first-child>.btn-group>.btn, 
+.input-group-btn:first-child>.dropdown-toggle, 
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle), 
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn{
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.input-group .form-control:last-child, 
+.input-group-addon:last-child, 
+.input-group-btn:last-child>.btn, 
+.input-group-btn:last-child>.btn-group>.btn, 
+.input-group-btn:last-child>.dropdown-toggle, 
+.input-group-btn:first-child>.btn:not(:first-child), 
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn{
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.nav>li>a{
+  margin: 0 3px;
+  padding: 10px 15px;
+}
+
+.navbar{
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  margin-top: -10px;
+  text-transform: uppercase;
+  background: url('/bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: url('/marquee-pattern.png');
+  color: #FFF;
+  padding-bottom: 40px;
+}
+
+  a.navbar-brand{
+    background: url('../images/boostable-logo-w.png');
+    display: block;
+    height: 38px;
+    margin: 10px 0 0 10px;
+    width: 155px;
+  }
+
+body.home .navbar-default{
+  background: url('marquee-pattern.png');
+}
+
+.navbar-nav>li>a {
+  line-height: 21px;
+}
+
+@media (min-width: 768px){
+  .navbar-nav>li>a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  
+  .navbar-right{
+    padding: 14px 0;
+  }
+  
+  .navbar{
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 1024px){
+  .navbar-nav>li>a {
+    margin: 0 6px;
+  }
+}
+
+@media (max-width: 1024px){
+  .container{
+    width: auto;
+  }
+}
+
+.navbar .navbar-nav>li a{
+  border-radius: 2px;
+  position: relative;
+}
+
+  .navbar .navbar-nav>li a span.alerts{
+    background: #f1734d;
+    border-radius: 3px;
+    color: #FFF;
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 8px;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+.navbar .navbar-nav>li.highlight a{
+  border: 1px solid #FFF;
+}
+
+.navbar-default .navbar-nav>li.orange>a {
+  color: #f1734d;
+}
+
+i.partners{
+  background: url('../images/partners.png') no-repeat 0 0;
+  display: block;
+  height: 44px;
+  margin-bottom: -43px;
+  width: 60px;
+}
+
+  i.partners.partners-gray{
+    background-image: url('../images/partners-gray.png');
+  }
+
+  i.partners span{
+    display: none;
+  }
+
+  i.partners-opensky{
+    background-position: -182px 0;
+    width: 44px;
+  }
+  
+  i.partners-storenvy{
+    background-position: -333px 0;
+    width: 103px;
+  }
+  
+  i.partners-udemy{
+    background-position: -550px 0;
+    width: 103px;
+  }
+
+i.features{
+  background: url('../images/features.png') no-repeat 0 0;
+  display: inline-block;
+  height: 161px;
+  width: 291px;
+}
+
+  i.features-automated{
+    background-position: -425px 0;
+    width: 243px;
+  }
+  
+  i.features-results{
+    background-position: -831px 0;
+    width: 231px;
+  }
+  
+i.icon-twitter{
+  background: url('/twitter-logo-default.png') no-repeat;
+  display: inline-block;
+  height: 32px;
+  width: 33px;
+}
+
+i.icon-linkedin{
+  background: url('/linkedin-logo-default.png') no-repeat;
+  display: inline-block;
+  height: 32px;
+  width: 33px;
+}
+
+i.icon-github{
+  background: url('/github-mark.png') no-repeat;
+  display: inline-block;
+  height: 32px;
+  width: 33px;
+}
+
+i.icon-twitter span,
+i.icon-linkedin span,
+i.icon-github span{
+  display: none;
+}
+
+i.investor{
+  display: inline-block;
+  height: 56px;
+  width: 102px;
+}
+
+i.investor span{
+  display: none;
+}
+
+i.investor-svangel{
+  background: url('../images/svangel-logo.png') no-repeat 0 0;
+}
+
+i.investor-500{
+  background: url('../images/500-startup-logo.png') no-repeat 0 0px;
+  position: relative;
+  top: 8px;
+  width: 74px;
+}
+
+i.investor-yc{
+  background: url('../images/y-combinator-logo.png') no-repeat 0 0px;
+  position: relative;
+  top: 15px;
+  width: 155px;
+}
+
+i.investor-more{
+  background: url('../images/investors.png') no-repeat -769px 0;
+  width: 64px;
+}
+
+
+div.home{
+  background: url('/bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  div.home h2{
+    color: #5b5f6c;
+  }
+
+@-webkit-keyframes slide{
+  from{
+    margin-right: 10px;
+  }
+  to{
+    margin-right: 0px;
+  }
+}
+
+section.section-gray{
+  background: #f6f9fa;
+  border-top: 1px solid #e6e7e7;
+  padding: 59px 0 120px 0;
+}
+  section.section-gray.section-gray-noborder{
+    border-top: none;
+  }
+
+  section.section-gray h2,
+  section.section-gray h3{
+    text-align: center;
+  }
+
+  section.section-gray h2{
+    color: #67a2d5;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  section.section-gray h3{
+    color: #5b5f6c;
+    font-size: 55px;
+    margin-bottom: 25px;  
+  }
+  
+section.section-white{
+  background: #FFF;
+  border-top: 1px solid #e6e7e7;
+  padding: 59px 0 120px 0;
+}
+
+  section.section-white h2,
+  section.section-white h3{
+    text-align: center;
+  }
+
+  section.section-white h2{
+    color: #5b5f6c;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  section.section-white h3{
+    color: #5b5f6c;
+    font-size: 55px;
+    margin-bottom: 25px;  
+  }
+  
+  section.section-white h4{
+    color: #99a1ad; 
+    font-size: 20px;
+  }
+  
+  section.section-white a{
+    color: #ff6633;
+  }
+  
+  section.section-white .btn-default{
+    background: #f1734d;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+  }
+
+section.welcome{
+  background: url('/marquee-pattern.png');
+  color: #FFF;
+  padding-bottom: 40px;
+}
+
+  section.welcome h1{
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 65px;
+  }
+  
+  .arrow{
+  }
+  
+  .arrow img{
+    -webkit-animation: slide 0.8s linear infinite alternate;
+    height: 37px;
+    margin-top: 10px;
+    width: 37px;
+  }
+  
+  section.welcome input,
+  section.welcome .form-control{
+    border: none;
+    height: 60px;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  section.welcome ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+    font-weight: 600;
+  }
+  section.welcome :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+    font-weight: 600;
+  }
+  section.welcome ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+    font-weight: 600;
+  }
+  section.welcome :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+    font-weight: 600;
+  }
+  
+  section.welcome .input-group-addon,
+  section.welcome .btn-default{
+    background: #f1734d;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+  }
+  
+  section.welcome .input-group-addon:not(:first-child):not(:last-child){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  section.welcome .hidden-lg .btn-default{
+    border-radius: 5px;
+  }
+  
+  section.welcome .help-block {
+    color: #FFF;
+    font-weight: 900;
+    margin-bottom: 140px;
+    margin-top: 10px;
+  }
+  
+  section.welcome .coffee{
+    background: url('../images/cup.png') no-repeat; /* put an image here if we want */
+    display: block;
+    height: 188px;
+    margin-left: -10px;
+    position: absolute;
+    top: 60px;
+    width: 245px;
+  }
+
+section.partners{
+  background: url('/marquee-pattern.png');
+  color: #FFF;
+  padding: 10px 0;
+}
+  
+  section.partners ul{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+    section.partners ul li{
+      margin: 0 30px;
+      padding: 20px 0;
+    }
+
+      @media (min-width: 1200px){
+        section.partners .container{
+          max-width: 1200px;
+        }
+        section.partners ul li{
+          margin: 0 40px;
+        }
+      }
+  
+    section.partners ul li a{
+      display: block;
+      padding: 5px 0;
+    }
+    
+    section.partners ul li:last-child a{
+      background: url('/btn-plus.png') no-repeat center left;
+      color: #f1734d;
+      padding-left: 25px;
+    }
+
+section.how{
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+  section.how h2{
+    color: #5b5f6c;
+    font-size: 55px;
+    line-height: 56px;
+  }
+  
+  section.how h3{
+    color: #99a1ad;
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+  
+  section.how h4{
+    color: #5b5f6c;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  
+  section.how p{
+    color: #8891a0;
+    font-size: 16px;
+  }
+  
+
+section.easy{
+  background: #f6f9fa;
+  border-top: 1px solid #e6e7e7;
+  padding: 40px 0 80px 0;
+}
+  
+  section.easy .arrow img{
+    -webkit-animation: slide 0.8s linear infinite alternate;
+    margin-top: 10px;
+  }
+
+  section.easy h2{
+    color: #3f464c;
+    font-size: 45px;
+    margin-bottom: 60px;
+  } 
+  
+  section.easy input,
+  section.easy .form-control{
+    border: 2px solid #F1734D; 
+    height: 60px;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  input[type="text"]:focus{
+    box-shadow: none;
+  }
+  
+  section.easy ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+    font-weight: 600;
+  }
+  section.easy :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+    font-weight: 600;
+  }
+  section.easy ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+    font-weight: 600;
+  }
+  section.easy :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+    font-weight: 600;
+  }
+  
+  section.easy .input-group-addon,
+  section.easy .btn-default{
+    background: #f1734d;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+  }
+  
+  box-shadow:none !important;
+  }
+  
+  section.easy .input-group-addon:not(:first-child):not(:last-child){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  section.easy .help-block {
+    color: #3f464c;
+    margin-top: 10px;
+  }
+
+section.marketplace{
+  background: url('/brick-pattern.png');
+  border-top: 1px solid #e6e7e7;
+  padding: 120px 0 80px 0;
+}
+
+  section.marketplace h2{
+    color: #67a2d5;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 26px;
+  }
+
+  section.marketplace h3{
+    color: #5b5f6c;
+    font-size: 55px;
+    margin-bottom: 25px;  
+  }
+  
+  section.marketplace .img-logo{
+    margin: 0 auto;
+  }
+  
+  section.marketplace p{
+    color: #99a1ad;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  section.marketplace a.btn{
+    margin-top: 55px;
+    margin-bottom: 85px;
+  }
+  
+  section.marketplace h4{
+    color: #3f464c;
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+  }
+  
+  section.marketplace ul.partners li{
+    margin: 0 50px;
+    min-width: 50px;
+    min-height: 45px;
+  }
+  
+  section.marketplace .btn-default{
+    background: #f1734d;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+  }
+
+section.team{
+}
+  section.team .profile{
+    background: #FFF;
+    margin-bottom: 65px;
+    padding: 20px;
+  }
+  
+  section.team .profile .img-profile{
+    margin-bottom: 10px;
+  }
+  
+  section.team h3{
+    margin-bottom: 65px;
+    
+  }
+  
+  section.team h4{
+    color: #99a1ad;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  
+  section.team h5{
+    color: #4f5361;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  section.team h6{
+    color: #707b8d;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  section.team p{
+    color: #7b8185;
+    font-size: 16px;
+  }
+  
+  section.team .investors a{
+    background: #FFF;
+  }
+  
+    section.team .investors a{
+      display: block;
+      margin-bottom: 15px;
+      padding: 43px 10px 43px 10px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    section.team .investors .col-sm-3:last-child a{
+      background: none;
+      border: 2px solid #FFF;
+    }
+    
+    section.team.section-gray{
+      padding-bottom: 20px;
+    }
+
+section.jobs{
+}
+
+  section.jobs .job{
+    background: #FFF;
+    color: #3f464c;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  
+  section.jobs h4{
+    color: #99a1ad;
+    font-size: 20px;
+  }
+  
+  section.jobs .job h4{
+    min-height: 55px;
+  }
+  
+  section.jobs .job p{
+    font-size: 14px;
+    text-overflow: ellipsis;
+  }
+  
+  section.jobs .job a{
+    color: #f1734d;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+section.contact{
+}
+
+  section.contact a.btn{
+    margin-top: 60px;
+  }
+  
+  section.contact h4{
+    line-height: 30px;
+  }
+  
+section.footer{
+  background: #f6f9fa;
+  border-top: 1px solid #e6e7e7;
+  color: #707b8d;
+  font-weight: 300;
+  line-height: 25px;
+  padding: 50px 0;
+}
+
+  section.footer h2{
+    color: #707b8d;
+    font-size: 20px;
+  }
+  
+  section.footer ul{
+    color: #707b8d;
+    font-size: 14px;
+  }
+  
+  section.footer a{
+    color: #707b8d;
+  }
+  
+  section.footer p{
+  }
+  
+  section.footer .address a,
+  section.footer .contact a{
+    font-weight: bold;
+  }
+  
+  section.footer .address p,
+  section.footer .contact p{
+    margin-bottom: 0px;
+  }
+  
+  section.footer .contact{
+    margin-bottom: 15px;
+  }
+  
+  section.footer .btn-default{
+    background: none;
+    border: 1px solid #f1734d;
+    border-radius: 3px;
+    color: #f1734d;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 14px;
+    text-transform: uppercase;
+  }
+  
+  section.footer .copy{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 50px;
+  }
+  
+    section.footer .copy a{
+      font-weight: bold;
+    }
+  
+@media (max-width: 768px){
+  section.welcome h1,
+  section.how h2,
+  section.how h3,
+  section.marketplace h3,
+  section.team h3,
+  section.easy h2,
+  section.jobs h3,
+  section.contact h3{
+    font-size: 36px;
+    line-height: 39px;
+  }
+  
+  section.how h3{
+    margin-bottom: 50px;
+  }
+  
+  section.how p{
+    margin-bottom: 50px;
+  }
+  
+  section.marketplace p{
+    font-size: 16px;
+  }
+  
+  section.contact h4{
+    font-size: 10px;
+    line-height: 28px;
+  }
+  
+  section.team .profile{
+    text-align: center;
+  }
+  
+  section.team .img-profile{
+    margin: 0 auto 10px auto;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+  only screen and    (min--moz-device-pixel-ratio: 1.3),
+  only screen and      (-o-min-device-pixel-ratio: 1.3/1),
+  only screen and         (min-device-pixel-ratio: 1.3) {
+
+  a.navbar-brand{
+    background-image: url('../images/boostable-logo-w@2x.png');
+    background-size: 155px 38px;
+  }
+  
+  i.features{
+    background-image: url('../images/features@2x.png');
+    background-size: 1062px 162px;
+  }
+  
+  i.icon-twitter{
+    background-image: url('../images/twitter-logo-default@2x.png');
+    background-size: 32px 32px;
+  }
+
+  i.icon-linkedin{
+    background-image: url('../images/linkedin-logo-default@2x.png');
+    background-size: 32px 32px;
+  }
+  
+  i.investor-svangel{
+    background: url('../images/svangel-logo@2x.png');
+    background-size: 102px 56px;
+  }
+  
+  i.investor-500{
+    background-image: url('../images/500-startup-logo@2x.png');
+    background-size: 74px 49px;
+  }
+  
+  i.investor-yc{
+    background-image: url('../images/y-combinator-logo@2x.png');
+    background-size: 155px 30px;
+  }
+}
