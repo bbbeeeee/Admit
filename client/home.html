@@ -266,6 +266,7 @@
     </div>
   </div>
 </section>
+{{> insertAppForm}}
 <section class="footer">
   <div class="container">
     <div class="row">
@@ -322,7 +323,7 @@
   {{greeting}}
 </template>
 
-<template name='submissions'>
-  
+<template name='insertAppForm'>
+  {{> quickForm collection="Apps" id="insertAppForm" type="insert"}}     
 </template>
 
